@@ -1,22 +1,22 @@
 let arr = [1, [2, 3], [4, [5, 6]]];
 let result = [];
 
-function flatten(a) {
-    for (let i = 0; i < a.length; i++) {
-        let value = a[i];
+function SingleArray(array) {
+    for (let i = 0; i < array.length; i++) {
+        let value = array[i];
 
         // check if value is array
         if (Array.isArray(value)) {
             console.log("if value = ", value);
-            flatten(value); // recursive call
+            SingleArray(value); // recursive call
         } else {
             console.log("else value = ", value);
-            result[result.length] = value; // manual push
+            result.push(value) // manual push
         }
     }
 }
 
-flatten(arr);
+SingleArray(arr);
 
 console.log(result);
 // [1, 2, 3, 4, 5, 6]
