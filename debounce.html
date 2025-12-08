@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Debounce with Input & Button</title>
+</head>
+
+<body>
+
+  <h2>Debounce Example</h2>
+
+  <input type="text" id="searchInput" placeholder="Type something..." />
+
+  <script>
+    function MainFunction(inner, time) {
+      let timer;
+      return () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+          inner();
+        }, time);
+      };
+    }
+
+    function outerFn() {
+      const value = document.getElementById("searchInput").value;
+      console.log("API Call with value:", value);
+    }
+
+    const output = MainFunction(outerFn, 1000);
+
+
+    document.getElementById("searchInput").addEventListener("keyup", output);
+  </script>
+
+</body>
+
+</html>
