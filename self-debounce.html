@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <input type="text" id="searchId" placeholder="enter something">
+
+  <script>
+    function Debounce(fn, delay) {
+      let timer;
+      return () => {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          fn()
+        }, delay)
+      }
+    }
+
+    function Searching() {
+      const value = document.getElementById('searchId').value;
+      console.log(`searching = ${value}`)
+    }
+
+    const output = Debounce(Searching, 1000);
+
+    document.querySelector('#searchId').addEventListener("keyup", output)
+  </script>
+</body>
+
+</html>
