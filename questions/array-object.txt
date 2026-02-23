@@ -1,0 +1,31 @@
+🔹 Array of Objects – Logical Questions
+
+Find all students whose marks are greater than a given value.
+
+Find the student with the highest marks.
+
+Find the student with the lowest marks.
+
+Calculate the total marks of all students.
+
+Calculate the average marks of all students.
+
+Find a student by name from an array of objects.
+
+Count how many students passed and failed.
+
+Sort students based on marks in ascending order.
+
+Sort students based on name alphabetically.
+
+Add a new student object to the array.
+
+Remove a student object based on id.
+
+Update marks of a specific student.
+
+Convert an array of student objects into an object grouped by grade.
+
+Find duplicate records in an array of objects.
+
+Filter students belonging to a specific course.

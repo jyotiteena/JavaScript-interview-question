@@ -1,0 +1,31 @@
+🔹 Array – Logical Questions
+
+Find the largest and smallest element in an array.
+
+Remove duplicate elements from an array.
+
+Reverse an array without using the reverse() method.
+
+Sort an array in ascending order without using sort().
+
+Find the second largest element in an array.
+
+Count how many even and odd numbers are present in an array.
+
+Find the sum of all elements in an array.
+
+Check whether a given element exists in an array.
+
+Merge two arrays without using built-in methods.
+
+Find the frequency of each element in an array.
+
+Move all zero values to the end of an array.
+
+Check whether an array is sorted or not.
+
+Rotate an array to the left by one position.
+
+Rotate an array to the right by one position.
+
+Find the missing number in a sequence array.

@@ -1,0 +1,41 @@
+🔹 Recursion – Logical Questions
+
+Write a recursive function to find the factorial of a number.
+
+Write a recursive function to find the sum of first n natural numbers.
+
+Write a recursive function to calculate the power of a number (a^b).
+
+Write a recursive function to print numbers from 1 to n.
+
+Write a recursive function to print numbers from n to 1.
+
+Write a recursive function to find the nth Fibonacci number.
+
+Write a recursive function to find the sum of all elements in an array.
+
+Write a recursive function to find the maximum element in an array.
+
+Write a recursive function to reverse a string.
+
+Write a recursive function to check whether a string is a palindrome.
+
+Write a recursive function to count the number of digits in a given number.
+
+Write a recursive function to find the sum of digits of a number.
+
+Write a recursive function to print all elements of an array.
+
+Write a recursive function to find the minimum element in an array.
+
+Write a recursive function to check whether a number is prime.
+
+Write a recursive function to calculate the product of array elements.
+
+Write a recursive function to search an element in an array.
+
+Write a recursive function to find the length of a string without using .length.
+
+Write a recursive function to convert a number into binary.
+
+Write a recursive function to check whether an array is sorted or not.

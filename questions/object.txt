@@ -1,0 +1,31 @@
+🔹 Object – Logical Questions
+
+Count the total number of properties in an object.
+
+Check whether a specific key exists in an object.
+
+Convert all object values into an array.
+
+Convert all object keys into an array.
+
+Find the sum of all numeric values in an object.
+
+Remove a specific property from an object.
+
+Merge two objects into one object.
+
+Find the property with the maximum value in an object.
+
+Check whether an object is empty or not.
+
+Convert an object into an array of key-value pairs.
+
+Update a value of an object without changing other properties.
+
+Clone an object without modifying the original object.
+
+Count how many properties have string values.
+
+Replace all null values in an object with a default value.
+
+Compare two objects and check if they are equal.
